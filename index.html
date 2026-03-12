@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>18-in-1 WhatsApp Marketing Software - Revolutionize Your Business</title>
+<title>6-in-1 WhatsApp Marketing Software - Boost Your Business</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style>
 :root {
     --primary-color: #25D366;
@@ -29,94 +30,92 @@ section { padding:4rem 0; }
 .feature-card { background-color: var(--bg-color); border-radius:10px; padding:2rem; box-shadow:0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s ease; opacity:0; transform: translateY(20px); }
 .feature-card:hover { transform: translateY(-5px); box-shadow:0 6px 8px rgba(0,0,0,0.15); }
 .feature-icon { font-size:3rem; color: var(--primary-color); margin-bottom:1rem; }
+.material-icons { font-size:3rem; color: var(--primary-color); margin-bottom:1rem; }
 .feature-title { font-size:1.5rem; margin-bottom:1rem; color: var(--secondary-color); }
-.benefits { background-color: var(--secondary-color); color: var(--white); }
-.benefit-list { list-style-type:none; padding:0; }
-.benefit-item { font-size:1.2rem; margin-bottom:1rem; display:flex; align-items:center; }
-.benefit-item::before { content:"✓"; color: var(--accent-color); font-weight:bold; margin-right:10px; }
+.benefits { background-color: var(--secondary-color); color: var(--white); text-align:center; }
+.benefits p { font-size:1.2rem; margin-bottom:1rem; }
 .pricing { text-align:center; background-color: var(--white); }
 .price { font-size:4rem; color: var(--secondary-color); margin:1rem 0; }
 .price-description { font-size:1.2rem; margin-bottom:2rem; }
-.guarantee { font-style:italic; color: var(--accent-color); margin-top:1rem; }
+.guarantee { font-style:italic; color: var(--accent-color); margin-top:1rem; margin-bottom:2rem; }
+.image-gallery { display:flex; flex-direction:column; gap:2rem; align-items:center; max-width:800px; margin:2rem auto; }
+.image-gallery img { width:100%; max-width:800px; height:auto; border:3px solid var(--secondary-color); border-radius:10px; cursor:pointer; opacity:0; transform:translateY(20px); transition: all 0.6s ease; }
+.image-gallery img.visible { opacity:1; transform:translateY(0); }
+/* Lightbox */
+#lightbox { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); display:none; justify-content:center; align-items:center; z-index:2000; }
+#lightbox img { max-width:90%; max-height:90%; border-radius:10px; animation: zoomIn 0.3s ease; }
+@keyframes zoomIn { from { transform: scale(0.7); opacity:0; } to { transform: scale(1); opacity:1; } }
+
 footer { background-color: var(--secondary-color); color: var(--white); text-align:center; padding:2rem 0; }
-footer a { color: var(--white); text-decoration:none; margin:0 10px; }
-footer a:hover { text-decoration:underline; }
 #scroll-to-top { position:fixed; bottom:20px; right:20px; background-color: var(--primary-color); color:white; border:none; border-radius:50%; width:50px; height:50px; font-size:24px; cursor:pointer; display:none; transition: opacity 0.3s; opacity:0.7; z-index:1000; }
 #scroll-to-top:hover { opacity:1; }
+#whatsapp-bot { position:fixed; bottom:20px; left:20px; background-color:#25D366; color:white; border:none; border-radius:50%; width:60px; height:60px; font-size:28px; cursor:pointer; z-index:1000; display:flex; align-items:center; justify-content:center; text-decoration:none; }
 @media (max-width:768px){ h1{font-size:2.5rem;} .subtitle{font-size:1.2rem;} .section-title{font-size:2rem;} .feature-grid{grid-template-columns:1fr;} }
 </style>
 </head>
 <body>
 <header>
-    <div class="container">
-        <h1>18-in-1 WhatsApp Marketing Software</h1>
-        <p class="subtitle">Revolutionize Your Business with the Most Comprehensive WhatsApp Marketing Solution</p>
-        <a href="#pricing" class="cta-button">Boost Your Marketing Now</a>
-    </div>
+<div class="container">
+<h1>6-in-1 WhatsApp Marketing Software</h1>
+<p class="subtitle">Boost Your Business with Powerful WhatsApp Tools</p>
+<a href="#pricing" class="cta-button">Boost Your Marketing Now</a>
+</div>
 </header>
 
 <section class="features">
 <div class="container">
-<h2 class="section-title">18 Powerful Features to Skyrocket Your Business</h2>
+<h2 class="section-title">6 Powerful Features</h2>
 <div class="feature-grid">
-    <div class="feature-card"><div class="feature-icon">📊</div><h3 class="feature-title">WhatsApp Bulk Sender</h3><p>Send personalized messages to unlimited contacts efficiently, increasing your reach and engagement.</p></div>
-    <div class="feature-card"><div class="feature-icon">👥</div><h3 class="feature-title">WhatsApp Group Sender</h3><p>Broadcast messages to multiple groups simultaneously, saving time and maximizing your outreach.</p></div>
-    <div class="feature-card"><div class="feature-icon">📞</div><h3 class="feature-title">WhatsApp Number Extractor</h3><p>Easily extract numbers from various sources, building your contact list effortlessly.</p></div>
-    <div class="feature-card"><div class="feature-icon">🔗</div><h3 class="feature-title">WhatsApp Group Link Extractor</h3><p>Automatically collect group links from web pages, expanding your network rapidly.</p></div>
-    <div class="feature-card"><div class="feature-icon">📱</div><h3 class="feature-title">WhatsApp API Integration</h3><p>Seamlessly integrate WhatsApp functionality into your existing applications and workflows.</p></div>
-    <div class="feature-card"><div class="feature-icon">🤖</div><h3 class="feature-title">WhatsApp Chatbot</h3><p>Automate responses and customer interactions, providing 24/7 support and improving satisfaction.</p></div>
-    <div class="feature-card"><div class="feature-icon">📈</div><h3 class="feature-title">Marketing Dashboard</h3><p>Track and analyze your campaign performance with detailed insights and real-time data.</p></div>
-    <div class="feature-card"><div class="feature-icon">📅</div><h3 class="feature-title">Message Scheduler</h3><p>Plan and schedule your messages in advance, ensuring timely delivery and optimal engagement.</p></div>
-    <div class="feature-card"><div class="feature-icon">📎</div><h3 class="feature-title">Bulk Attachment Sender</h3><p>Send files, images, and media to multiple contacts, enhancing your marketing materials.</p></div>
-    <div class="feature-card"><div class="feature-icon">🔍</div><h3 class="feature-title">Contact Manager</h3><p>Organize and manage your contacts efficiently with advanced filtering and tagging options.</p></div>
-    <div class="feature-card"><div class="feature-icon">🔒</div><h3 class="feature-title">Privacy Protection</h3><p>Ensure compliance with privacy regulations and protect your customers' data.</p></div>
-    <div class="feature-card"><div class="feature-icon">📊</div><h3 class="feature-title">Campaign Analytics</h3><p>Get detailed reports on your campaign performance, including open rates and engagement metrics.</p></div>
-    <div class="feature-card"><div class="feature-icon">🔁</div><h3 class="feature-title">Auto-Responder</h3><p>Set up automatic responses to common queries, improving response times and customer satisfaction.</p></div>
-    <div class="feature-card"><div class="feature-icon">📝</div><h3 class="feature-title">Message Templates</h3><p>Create and save message templates for quick and consistent communication.</p></div>
-    <div class="feature-card"><div class="feature-icon">🌐</div><h3 class="feature-title">Multi-Language Support</h3><p>Communicate with your global audience in their preferred language.</p></div>
-    <div class="feature-card"><div class="feature-icon">📱</div><h3 class="feature-title">Mobile App</h3><p>Manage your campaigns on-the-go with our user-friendly mobile application.</p></div>
-    <div class="feature-card"><div class="feature-icon">🔗</div><h3 class="feature-title">CRM Integration</h3><p>Seamlessly integrate with popular CRM systems to streamline your workflow.</p></div>
-    <div class="feature-card"><div class="feature-icon">🔧</div><h3 class="feature-title">Customization Options</h3><p>Tailor the software to your specific needs with advanced customization features.</p></div>
+<div class="feature-card"><span class="material-icons">edit_note</span><h3 class="feature-title">Send Text Messages</h3><p>Send text messages directly to any contact.</p></div>
+<div class="feature-card"><span class="material-icons">image</span><h3 class="feature-title">Send Images with Text</h3><p>Send images with captions to improve client engagement.</p></div>
+<div class="feature-card"><span class="material-icons">place</span><h3 class="feature-title">Target Location</h3><p>Select the geographic area to send your messages.</p></div>
+<div class="feature-card"><span class="material-icons">work</span><h3 class="feature-title">Target Business Category</h3><p>Focus on specific business types or organizations.</p></div>
+<div class="feature-card"><span class="material-icons">contacts</span><h3 class="feature-title">Download Business Numbers</h3><p>Collect all business numbers within your target category.</p></div>
+<div class="feature-card"><span class="material-icons">send</span><h3 class="feature-title">Send Messages to Businesses</h3><p>Send messages directly to businesses within your chosen category.</p></div>
 </div>
 </div>
 </section>
 
 <section class="benefits">
 <div class="container">
-<h2 class="section-title">Why Choose Our 18-in-1 Solution?</h2>
-<ul class="benefit-list">
-<li class="benefit-item">All-in-one solution for your WhatsApp marketing needs</li>
-<li class="benefit-item">Increase your reach and engagement exponentially</li>
-<li class="benefit-item">Save time and resources with automation features</li>
-<li class="benefit-item">Improve customer satisfaction with quick responses</li>
-<li class="benefit-item">Stay ahead of the competition with cutting-edge tools</li>
-<li class="benefit-item">Easy to use interface, no technical skills required</li>
-<li class="benefit-item">Regular updates and new feature additions</li>
-<li class="benefit-item">Dedicated customer support to ensure your success</li>
-</ul>
+<h2 class="section-title">Important Info</h2>
+<p>Acts as a sponsor alternative. No WhatsApp API. You are responsible for sending messages yourself and managing your number.</p>
 </div>
 </section>
 
 <section id="pricing" class="pricing">
 <div class="container">
-<h2 class="section-title">Unbeatable Value for Your Business</h2>
-<p class="price">2999</p>
-<p class="price-description">One-time payment for lifetime access to all 18 features!</p>
-<a href="#" class="cta-button">Buy Now and Transform Your Marketing</a>
-<p class="guarantee">30-day money-back guarantee. No questions asked!</p>
+<h2 class="section-title">Unbeatable Price</h2>
+<p class="price">$130</p>
+<p class="price-description">Pay once and get all features!</p>
+<a href="https://wa.me/70491573?text=I%20want%20to%20purchase%20the%206-in-1%20WhatsApp%20Marketing%20Software" class="cta-button" target="_blank">Buy Now</a>
+<p class="guarantee">Money-back guarantee within 2 days!</p>
+
+<!-- Image Gallery -->
+<div class="image-gallery">
+<img src="pic1.png" alt="pic1">
+<img src="pic2.png" alt="pic2">
+<img src="pic3.png" alt="pic3">
+<img src="pic4.png" alt="pic4">
+<img src="pic5.png" alt="pic5">
+</div>
 </div>
 </section>
 
+<!-- Lightbox -->
+<div id="lightbox"><img src="" alt="Fullscreen Image"></div>
+
 <footer>
 <div class="container">
-<p>&copy; 2023 18-in-1 WhatsApp Marketing Software. All rights reserved.</p>
+<p>&copy; 2026 6-in-1 WhatsApp Marketing Software. All rights reserved.</p>
 <div>
-<a href="#">Privacy Policy</a>
-<a href="#">Terms of Service</a>
-<a href="#">Contact Us</a>
+<a href="privacypolicy.html">Privacy Policy</a>
 </div>
 </div>
 </footer>
+
+<a href="https://wa.me/70491573?text=I%20want%20to%20purchase%20the%206-in-1%20WhatsApp%20Marketing%20Software" id="whatsapp-bot" target="_blank">💬</a>
+<button id="scroll-to-top">&uarr;</button>
 
 <script>
 // Smooth scrolling
@@ -128,13 +127,20 @@ const observer = new IntersectionObserver(entries => { entries.forEach(entry => 
 featureCards.forEach(card => observer.observe(card));
 
 // Scroll-to-top button
-const scrollToTopButton = document.createElement('button');
-scrollToTopButton.innerHTML = '&uarr;';
-scrollToTopButton.setAttribute('aria-label','Scroll to top');
-scrollToTopButton.id='scroll-to-top';
-document.body.appendChild(scrollToTopButton);
+const scrollToTopButton = document.getElementById('scroll-to-top');
 scrollToTopButton.addEventListener('click',()=>{ window.scrollTo({ top:0, behavior:'smooth' }); });
 window.addEventListener('scroll',()=>{ scrollToTopButton.style.display = (window.pageYOffset>100)? 'block':'none'; });
+
+// Animate images on scroll
+const galleryImages = document.querySelectorAll('.image-gallery img');
+const imgObserver = new IntersectionObserver(entries => { entries.forEach(entry => { if(entry.isIntersecting){ entry.target.classList.add('visible'); } }); }, { threshold:0.1 });
+galleryImages.forEach(img => imgObserver.observe(img));
+
+// Lightbox functionality
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = lightbox.querySelector('img');
+galleryImages.forEach(img => { img.addEventListener('click',()=>{ lightbox.style.display='flex'; lightboxImg.src=img.src; }); });
+lightbox.addEventListener('click',()=>{ lightbox.style.display='none'; lightboxImg.src=''; });
 </script>
 </body>
 </html>
